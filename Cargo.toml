@@ -10,6 +10,7 @@ debug = true
 clap = { version = "4.2.1", features = ["derive"] }
 clap_derive = "4.2.0"
 error-stack = "0.5.0"
+fast-glob = "0.4.0"
 glob-match = "0.2.1"
 ignore = "0.4.20"
 itertools = "0.13.0"
