@@ -15,7 +15,7 @@ use regex::Regex;
 use tracing::{info, instrument};
 
 use crate::config::Config;
-use glob_match::glob_match;
+use fast_glob::glob_match;
 
 pub struct Project {
     pub base_path: PathBuf,
